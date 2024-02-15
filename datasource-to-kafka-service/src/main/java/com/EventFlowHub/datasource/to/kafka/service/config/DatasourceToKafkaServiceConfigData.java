@@ -11,4 +11,5 @@ import java.util.List;
 @ConfigurationProperties(prefix = "datasource-to-kafka-service")
 public class DatasourceToKafkaServiceConfigData {
 	private List<String> datasourceKeywords;
+	private String welcomeMessage;
 }

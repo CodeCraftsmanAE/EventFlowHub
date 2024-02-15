@@ -5,3 +5,4 @@ datasource-to-kafka-service:
     - Spring
     - Kafka
     - Elasticsearch
+  welcome-message: Welcome to DatasourceToKafkaService
