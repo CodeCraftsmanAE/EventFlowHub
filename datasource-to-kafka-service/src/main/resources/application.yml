@@ -1,8 +1,7 @@
-datasource-to-kafka-service:
-  datasource-keywords:
-    - Java
-    - Microservices
-    - Spring
-    - Kafka
-    - Elasticsearch
-  welcome-message: Welcome to DatasourceToKafkaService
+news:
+  api:
+    url: http://eventregistry.org/api/v1/minuteStreamArticles
+    apiKey: ${NEWSAPI_API_KEY}
+    keywords: gaza OR israel
+    lang: en
+    pageSize: 100
