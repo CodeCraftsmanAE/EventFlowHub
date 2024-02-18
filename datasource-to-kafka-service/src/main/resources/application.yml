@@ -1,7 +1,7 @@
 news:
   api:
-    url: http://eventregistry.org/api/v1/minuteStreamArticles
     apiKey: ${NEWSAPI_API_KEY}
     keywords: gaza OR israel
     lang: en
     pageSize: 100
+    scheduleRate: 1200000
