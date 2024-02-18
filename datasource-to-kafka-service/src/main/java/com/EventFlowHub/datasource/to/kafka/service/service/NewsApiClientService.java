@@ -33,7 +33,7 @@ public class NewsApiClientService {
 	}
 
 	//fetch news every 20 minutes
-	@Scheduled(fixedRate = 1200000)
+	@Scheduled(fixedRateString = "${news.api.scheduleRate}")
 	public void fetchDataFromStream() {
 		LOG.info("Fetching data from the News API...");
 		// Make a GET request to the News API

@@ -5,3 +5,4 @@ news:
     keywords: gaza OR israel
     lang: en
     pageSize: 100
+    scheduleRate: 1200000
