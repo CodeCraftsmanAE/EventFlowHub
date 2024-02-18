@@ -10,8 +10,6 @@ The fetched data will then be sent to Kafka for further processing.
 - [Getting Started](#getting-started)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
