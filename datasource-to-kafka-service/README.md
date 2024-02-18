@@ -3,6 +3,8 @@
 This microservice fetches data from the News API at regular intervals using the `@Scheduled` annotation in a Spring Boot application. 
 The fetched data will then be sent to Kafka for further processing.
 
+This project utilizes the [News-API-Java](https://github.com/KwabenBerko/News-API-Java) library, a Java client for the News API. This library simplifies the process of interacting with the News API and fetching news data.
+
 ## Table of Contents
 
 - [Features](#features)
@@ -10,8 +12,6 @@ The fetched data will then be sent to Kafka for further processing.
 - [Getting Started](#getting-started)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
