@@ -10,14 +10,29 @@ It efficiently processes and analyzes event data from various sources, providing
 - **ELK Stack Integration:** Elasticsearch, Logstash, and Kibana integration for powerful event data analytics and visualization.
 - **Scalability:** Will be designed to handle high-throughput event streams with ease.
 
-## Getting Started
 
-### Prerequisites
+## Prerequisites
 
 - Java 17 or higher
 - Apache Kafka
 - ELK Stack (Elasticsearch, Logstash, Kibana)
 
-### Installation
+## Getting Started
 
-Coming soon...
+To get started with this microservice, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/CodeCraftsmanAE/EventFlowHub.git
+
+2. Build the project:
+
+   ```bash
+   cd EventFlowHub
+   mvn clean install
+
+3. Run the project:
+    ```bash
+   mvn spring-boot:run
+

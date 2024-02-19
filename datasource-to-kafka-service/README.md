@@ -26,24 +26,6 @@ Before you begin, ensure you have met the following requirements:
 - Maven
 - Kafka setup 
 
-## Getting Started
-
-To get started with this microservice, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/CodeCraftsmanAE/EventFlowHub.git
-
-2. Build the project:
-
-   ```bash
-   cd EventFlowHub
-   mvn clean install
-
-3. Run the project:
-    ```bash
-   mvn spring-boot:run
 
 ## Usage
 
