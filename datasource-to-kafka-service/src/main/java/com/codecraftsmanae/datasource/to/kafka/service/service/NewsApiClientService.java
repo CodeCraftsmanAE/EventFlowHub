@@ -1,4 +1,4 @@
-package com.EventFlowHub.datasource.to.kafka.service.service;
+package com.codecraftsmanae.datasource.to.kafka.service.service;
 
 import com.kwabenaberko.newsapilib.NewsApiClient;
 import com.kwabenaberko.newsapilib.models.request.EverythingRequest;

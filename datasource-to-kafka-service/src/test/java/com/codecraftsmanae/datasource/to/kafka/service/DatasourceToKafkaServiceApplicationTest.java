@@ -1,4 +1,4 @@
-package com.EventFlowHub.datasource.to.kafka.service;
+package com.codecraftsmanae.datasource.to.kafka.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.SpringApplication;
