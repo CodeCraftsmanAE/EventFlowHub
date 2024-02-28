@@ -15,6 +15,11 @@
 	<description>Demo project for Spring Boot</description>
 	<modules>
 		<module>datasource-to-kafka-service</module>
+        <module>Kafka</module>
+		<module>Kafka/kafka-model</module>
+		<module>Kafka/kafka-admin</module>
+		<module>Kafka/kafka-producer</module>
+		<module>common-config</module>
 	</modules>
 	<packaging>pom</packaging>
 	<properties>
@@ -23,7 +28,10 @@
 		<maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
 		<lombok.version>1.18.24</lombok.version>
 		<news.api.version>1.0.2</news.api.version>
+		<spring-kafka.version>3.1.1</spring-kafka.version>
+		<spring-retry.version>2.0.4</spring-retry.version>
 	</properties>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -31,20 +39,29 @@
 				<artifactId>spring-boot-starter</artifactId>
 				<version>${spring-boot.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-test</artifactId>
 				<version>${spring-boot.version}</version>
 				<scope>test</scope>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 			<dependency>
 				<groupId>org.projectlombok</groupId>
 				<artifactId>lombok</artifactId>
 				<version>${lombok.version}</version>
 				<scope>provided</scope>
 			</dependency>
+			<dependency>
+				<groupId>org.springframework.kafka</groupId>
+				<artifactId>spring-kafka</artifactId>
+				<version>${spring-kafka.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.retry</groupId>
+				<artifactId>spring-retry</artifactId>
+				<version>${spring-retry.version}</version>
+			</dependency>
+
 
 		</dependencies>
 	</dependencyManagement>
